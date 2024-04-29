@@ -2,12 +2,12 @@
 
 ## Vorbereitung
 * NodeJs Installieren
-* In einem Terminal im gewünschten Ordner : "npm create vite@latest" ausführen.Projektnamen eingeben, React auswählen, JavaScript auswählen. 
+* In einem Terminal im gewünschten Ordner : "npm create vite@latest" ausführen. Projektnamen eingeben, React auswählen, JavaScript auswählen. 
 * Im Anschluss die in der Console angezeigten Commands ausführen
 
 ## Dev Server starten
 Commands Eingeben:
-* cd projektname
+* cd "Projektname"
 * npm install (nur einmal notwendig)
 * npm run dev
 

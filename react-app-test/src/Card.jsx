@@ -5,7 +5,7 @@ function Card(){
         <div className = "card">
             <img src= {logoImg} alt="logo" className='card-logo'></img>
             <h2 className='card-title'>Senpai</h2>
-            <p className='card-text'>Super Coole und Inovative Lernplattform</p>
+            <p className='card-text'>Super coole und innovative Lernplattform</p>
         </div>
     );
 }
