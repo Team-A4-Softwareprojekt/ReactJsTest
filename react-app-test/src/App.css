@@ -1,0 +1,22 @@
+
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Set container height to viewport height */
+    position: relative; /* Make the container a positioning context */
+}
+
+.content {
+    flex: 1; /* Allow the Card to take remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 100px; /* Adjust the distance from the bottom */
+    left: 50%; /* Align the button horizontally */
+    transform: translateX(-50%); /* Center the button horizontally */
+}

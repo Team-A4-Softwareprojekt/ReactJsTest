@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.custom-button {
+    padding: 25px 40px;
+    border: 2px solid rgb(29, 29, 29);
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 12px; /* Increase font size */
+    font-family: 'Press Start 2P', sans-serif; /* Set font-family to an 8-bit font */
+  }
+  
+  .custom-button:hover {
+    background-color: darkgrey;
+  }

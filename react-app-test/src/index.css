@@ -1,8 +1,16 @@
+/* Global.css */
+
+body {
+  background-color: #f44c4c; /* Beispielhintergrundfarbe */
+  /* Weitere CSS-Regeln für den Hintergrund hier */
+}
+
 .card{
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: #dcdcdc;
   border: 2px solid rgb(118, 118, 118);
   border-radius: 10px;
   box-shadow: 3px 3px rgba(35, 35, 35, 0.857);
