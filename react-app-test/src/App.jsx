@@ -5,8 +5,6 @@ function App() {
         <>
             <Card></Card>
         </>
-       
     );
 }
-
 export default App
