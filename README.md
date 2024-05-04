@@ -29,3 +29,6 @@ http://localhost:5173
 * main.jsx ist die main javaScript Datei
     * Enthält die App.jsx datei welche die Main-Komponente ist
     * In die App.jsx datei werden alle weitern Komponenten eingefuegt
+    
+# Single Page Apps
+Der User sieht abhängig von seinen Aktionen auf der App unterschiedliche Komponenten, aber die index.html bleibt immer die selbe. Vereinfacht die Kommunikation mit dem Server
