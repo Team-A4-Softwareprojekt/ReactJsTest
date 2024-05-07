@@ -1,36 +1,38 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom'; // Import useHistory hook for navigation
 import './Button.css'; // Import CSS file for styling
 
-class CustomButton extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      hovered: false
-    };
-  }
+const CustomButton = () => {
+  const history = useHistory();
 
-  handleMouseEnter = () => {
-    this.setState({ hovered: true });
+  const handleClick = () => {
+    // Navigate to the "/newPage" route when the button is clicked
+    history.push('/newPage');
   };
 
-  handleMouseLeave = () => {
-    this.setState({ hovered: false });
+  const handleMouseEnter = () => {
+    // Handle mouse enter event
+    // You can implement custom behavior if needed
   };
 
-  render() {
-    const buttonColor = this.state.hovered ? 'grey' : 'darkgrey';
+  const handleMouseLeave = () => {
+    // Handle mouse leave event
+    // You can implement custom behavior if needed
+  };
 
-    return (
-      <button
-        className="custom-button"
-        style={{ backgroundColor: buttonColor }}
-        onMouseEnter={this.handleMouseEnter}
-        onMouseLeave={this.handleMouseLeave}
-      >
-        Start your journey
-      </button>
-    );
-  }
-}
+  const buttonColor = 'darkgrey'; // Assuming default color is darkgrey
+
+  return (
+    <button
+      className="custom-button"
+      style={{ backgroundColor: buttonColor }}
+      onClick={handleClick} // Handle button click event
+      onMouseEnter={handleMouseEnter} // Handle mouse enter event
+      onMouseLeave={handleMouseLeave} // Handle mouse leave event
+    >
+      Start your journey
+    </button>
+  );
+};
 
 export default CustomButton;
